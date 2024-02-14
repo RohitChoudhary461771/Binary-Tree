@@ -1,7 +1,7 @@
 vector<int> getpreOrderTraversal(TreeNode *root)
 {
     vector<int>preorder;
-    TreeNode* cur=root;
+    TreeNode* cur=root; 
     while(cur!=NULL){
         if(cur->left==NULL){
             preorder.push_back(cur->data);
